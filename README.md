@@ -1,5 +1,21 @@
 # SpiderSS-SpiderCG
 
+This repository contains code for the NAACL 2022 findings paper ["Measuring and Improving Compositional Generalization in Text-to-SQL via Component Alignment"](https://arxiv.org/abs/2205.02054).
+
+If you use Spider-SS or Spider-CG in your work, please cite it as follows:
+``` bibtex
+@misc{gan-etal-2022-measuring-and,
+  doi = {10.48550/ARXIV.2205.02054},  
+  url = {https://arxiv.org/abs/2205.02054},  
+  author = {Gan, Yujian and Chen, Xinyun and Huang, Qiuping and Purver, Matthew},
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Measuring and Improving Compositional Generalization in Text-to-SQL via Component Alignment},
+  publisher = {arXiv},
+  year = {2022},  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
+
 ## Introduction
 This repository is built upon the [NatSQL](https:/www.github.com/ygan/NatSQL). Some algorithms mentioned in the SpiderSS paper are stored in the NatSQL repository, such as the sentence split. You should download the NatSQL and this repository, then combine these two repositories by copying the files in this repository into the root path of the NatSQL.
 
